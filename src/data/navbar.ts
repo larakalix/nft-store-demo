@@ -1,7 +1,7 @@
 import { BiHome, BiSearch } from "react-icons/bi";
-import { NavItem } from "../models/NavItem";
+import { NavItemProps } from "../models/NavItem";
 
-export const NavbarItems: NavItem[] = [
+export const NavbarItems: NavItemProps[] = [
     {
         label: "Home",
         route: "/",
