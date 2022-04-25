@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer utilities {
+    .text-stroke {
+        -webkit-text-stroke: 3px transparent;
+    }
+
     @variants responsive {
         .masonry {
             column-gap: 1em;

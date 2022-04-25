@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CgMenu, CgClose } from "react-icons/cg";
 import { NavItems } from "./components/NavItems";
+import { ThemeSelector } from "./components/ThemeSelector";
 
 export const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -26,6 +27,8 @@ export const Navbar = () => {
             </div> */}
 
             <NavItems />
+            
+            <ThemeSelector />
         </div>
     );
 };

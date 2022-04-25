@@ -1,10 +1,12 @@
 import { PageWrapper } from "../../components/layout/PageWrapper/PageWrapper";
+import { Banner } from "../../components/home/banner/Banner";
+import { HomeBanner } from "../../data/home";
 
 export const HomeScreen = () => {
     return (
         <PageWrapper>
-            <div className="h-screen w-full flex items-center justify-center bg-red-500">
-                <h1 className="font-urbanist text-black">Home screen</h1>
+            <div className="h-screen w-full">
+                <Banner {...HomeBanner} />
             </div>
         </PageWrapper>
     );
