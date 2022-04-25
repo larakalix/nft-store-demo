@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+        .masonry {
+            column-gap: 1em;
+            column-count: 1;
+        }
+        .masonry-1 {
+            column-gap: 1.1em;
+            column-count: 1;
+        }
+        .masonry-2 {
+            column-gap: 1.1em;
+            column-count: 2;
+        }
+        .masonry-3 {
+            column-gap: 1.2em;
+            column-count: 3;
+        }
+        .masonry-4 {
+            column-gap: 1.2em;
+            column-count: 4;
+        }
+        .masonry-5 {
+            column-gap: 1em;
+            column-count: 5;
+        }
+        .masonry-6 {
+            column-gap: 1em;
+            column-count: 6;
+        }
+        .break-inside {
+            break-inside: avoid;
+        }
+    }
+}
