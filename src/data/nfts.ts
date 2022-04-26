@@ -1,9 +1,5 @@
 // ff2bf78b-c97d-4f3c-b791-b35c191fc505
-// 63583f54-0867-44af-9dae-38d91bd9c7dd
-// da31b547-50a2-4f37-b764-0f8c8b6054a5
-// a03dba27-7958-4ca3-9b1e-33db219961b4
 // 44bb7cb7-c79d-421b-8100-a5bf56116494
-// 1fbba14b-636a-4447-a06b-0af2154bd18e
 
 import { PickProps } from "../models/home/Picks";
 import { Users } from "./users";
@@ -12,7 +8,7 @@ export const Nfts: PickProps[] = [
     {
         id: "25666c42",
         name: "Living Vase 01 by Lanza Contemplates",
-        description: "NFT 1 description",
+        description: "",
         image: "https://www.datocms-assets.com/50719/1650905035-nft-1.jpg",
         price: "4.89 ETH",
         category: ["1", "2"],
@@ -22,7 +18,7 @@ export const Nfts: PickProps[] = [
     {
         id: "3ab84108",
         name: "Space babe - Night 2/25",
-        description: "NFT 1 description",
+        description: "",
         image: "https://www.datocms-assets.com/50719/1650905038-nft-2.jpg",
         price: "7.35 ETH",
         category: ["1", "3"],
@@ -32,21 +28,61 @@ export const Nfts: PickProps[] = [
     {
         id: "db6e1e6a",
         name: "CyberPrimal 042 LAN",
-        description: "NFT 1 description",
+        description: "",
         image: "https://www.datocms-assets.com/50719/1650905041-nft-3.jpg",
         price: "5.42 ETH",
         category: ["2", "4"],
-        user: Users.find((user) => user.id === "CrispinBerry")!,
+        user: Users.find((user) => user.id === "MonicaLucas")!,
         createdAt: new Date(),
     },
     {
         id: "65facde8",
         name: "Crypto Egg Stamp #5",
-        description: "NFT 1 description",
+        description: "",
         image: "https://www.datocms-assets.com/50719/1650905046-nft-4.jpg",
         price: "5.42 ETH",
         category: ["2", "4"],
         user: Users.find((user) => user.id === "AndyHurlbutt")!,
+        createdAt: new Date(),
+    },
+    {
+        id: "1fbba14b",
+        name: "Travel Monkey Club #45",
+        description: "",
+        image: "https://www.datocms-assets.com/50719/1650905050-nft-5.jpg",
+        price: "9.12 ETH",
+        category: ["2", "4"],
+        user: Users.find((user) => user.id === "MattRamos")!,
+        createdAt: new Date(),
+    },
+    {
+        id: "a03dba27",
+        name: "Sir. Lion Swag #371",
+        description: "",
+        image: "https://www.datocms-assets.com/50719/1650905054-nft-6.jpg",
+        price: "4.43 ETH",
+        category: ["2", "4"],
+        user: Users.find((user) => user.id === "TommyAlvarez")!,
+        createdAt: new Date(),
+    },
+    {
+        id: "da31b547",
+        name: "Living Vase 01 by Lanz And Contemplates",
+        description: "",
+        image: "https://www.datocms-assets.com/50719/1650905058-nft-7.jpg",
+        price: "10.12 ETH",
+        category: ["2", "4"],
+        user: Users.find((user) => user.id === "HarperWilcher")!,
+        createdAt: new Date(),
+    },
+    {
+        id: "63583f54",
+        name: "Travel Monkey Club #53",
+        description: "",
+        image: "https://www.datocms-assets.com/50719/1650905050-nft-5.jpg",
+        price: "9.12 ETH",
+        category: ["2", "4"],
+        user: Users.find((user) => user.id === "WindsorLane")!,
         createdAt: new Date(),
     },
 ];

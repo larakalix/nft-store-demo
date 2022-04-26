@@ -17,7 +17,7 @@ export const Button = ({
     return (
         <Link href={route}>
             <a
-                className={`border-2 border-light-purple dark:border-white bg-transparent rounded-full text-white px-12 py-4 hover:bg-light-purple font-bold transition-colors ${className}`}
+                className={`select-none border-2 border-light-purple dark:border-white bg-transparent rounded-full text-white px-12 py-4 hover:bg-light-purple font-bold transition-colors ${className}`}
             >
                 {label}
             </a>

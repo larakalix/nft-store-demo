@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { UserProps } from "../../../../../models/user/User";
+import { UserProps } from "../../../../models/user/User";
 
 export const CreatorBadge = ({ name, avatar }: UserProps) => {
     return (
@@ -14,10 +14,10 @@ export const CreatorBadge = ({ name, avatar }: UserProps) => {
                 />
             </div>
             <div>
-                <h5 className="text-white text-[0.9rem] font-urbanist">
+                <h5 className="text-white dark:text-custm-black text-[0.9rem] font-urbanist">
                     Creator
                 </h5>
-                <h4 className="text-white text-[1.2rem] font-urbanist font-bold">
+                <h4 className="text-white dark:text-custm-black text-[1.2rem] font-urbanist font-bold">
                     {name}
                 </h4>
             </div>

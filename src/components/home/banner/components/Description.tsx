@@ -31,7 +31,7 @@ const TextElement = ({
     if (isParagraph) {
         return (
             <p
-                className={`text-[1rem] md:text-[1.2rem] lg:text-[1.4rem] leading-[1.6rem] ${className}`}
+                className={`select-none text-[1rem] md:text-[1.2rem] lg:text-[1.4rem] leading-[1.6rem] ${className}`}
             >
                 {text}
             </p>
@@ -39,7 +39,7 @@ const TextElement = ({
     } else {
         return (
             <h1
-                className={`text-[2.4rem] md:text-[2.8rem] lg:text-[3.3rem] font-urbanist font-bold ${className}`}
+                className={`select-none text-[2.4rem] md:text-[2.8rem] lg:text-[3.3rem] font-urbanist font-bold ${className}`}
             >
                 {text}
             </h1>

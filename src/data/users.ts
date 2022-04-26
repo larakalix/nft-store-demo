@@ -52,7 +52,7 @@ export const Users: UserProps[] = [
     },
     // MattRamos
     {
-        id: "Matt Ramos",
+        id: "MattRamos",
         name: "Matt Ramos",
         avatar: "https://www.datocms-assets.com/50719/1650905025-avt-9.jpg",
         createdAt: new Date(),
