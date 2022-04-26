@@ -9,6 +9,36 @@
         -webkit-text-stroke: 3px transparent;
     }
 
+    @keyframes move5 {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+        50% {
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes scale5 {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        50% {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
     @variants responsive {
         .masonry {
             column-gap: 1em;

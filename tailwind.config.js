@@ -18,6 +18,10 @@ module.exports = {
                 card: "#343444",
                 "custm-black": "#0D0D11",
             },
+            animation: {
+                move: "move5 10s infinite linear",
+                scale: "scale5 10s infinite linear",
+            },
         },
     },
     plugins: [],
