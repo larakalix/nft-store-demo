@@ -1,4 +1,4 @@
-import { IconType } from "react-icons";
+import { ActionProps } from "../utils/Button";
 
 export interface HomeBannerProps {
     title: string;
@@ -12,11 +12,6 @@ export interface HomeBannerProps {
 export interface BannerDescriptionProps {
     id: string;
     text: string;
-    className: string;
-}
-
-export interface ActionProps {
-    label: string;
-    href: string;
-    icon?: IconType;
+    className?: string;
+    isParagraph?: boolean;
 }

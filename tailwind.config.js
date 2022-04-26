@@ -15,6 +15,7 @@ module.exports = {
             colors: {
                 "light-purple": "#5142FC",
                 "bg-purple": "#13131f",
+                card: "#343444",
                 black: "#0D0D11",
             },
         },

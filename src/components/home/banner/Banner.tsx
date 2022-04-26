@@ -7,12 +7,10 @@ export const Banner = ({
     actions,
 }: HomeBannerProps) => {
     return (
-        <div className="w-full flex items-center justify-center bg-bg-purple dark:bg-light-purple">
-            <div className="flex items-center justify-around w-full max-w-[80%]">
-                <Description description={description} actions={actions} />
+        <div className="flex items-center flex-col md:flex-row justify-between w-full">
+            <Description description={description} actions={actions} />
 
-                <Hero hero={hero} />
-            </div>
+            <Hero hero={hero} />
         </div>
     );
 };

@@ -1,13 +1,17 @@
 import { PageWrapper } from "../../components/layout/PageWrapper/PageWrapper";
-import { Banner } from "../../components/home/banner/Banner";
 import { HomeBanner } from "../../data/home";
+import { Banner } from "../../components/home/banner/Banner";
+import { Picks } from "../../components/home/picks/Picks";
+import { BestSellers } from "../../components/home/best-sellers/BestSellers";
 
 export const HomeScreen = () => {
     return (
         <PageWrapper>
-            <div className="h-screen w-full">
-                <Banner {...HomeBanner} />
-            </div>
+            <Banner {...HomeBanner} />
+
+            <Picks />
+
+            <BestSellers />
         </PageWrapper>
     );
 };
